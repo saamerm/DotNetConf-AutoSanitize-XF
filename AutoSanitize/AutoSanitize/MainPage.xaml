@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AutoSanitize.MainPage">
+
+    <StackLayout Padding="12">
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to Auto Dispenser!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Start sanitizing now" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="Make changes to your life by sanitizing and save lives. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
+        <Label FontSize="16" Padding="30,24,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Learn more at "/>
+                        <Span Text="https://github.com/saamerm/autosanitize-xf" FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        <Button Text="Sanitize Me" Clicked="Sanitize_Clicked" FontSize="Large" TextColor="White" BackgroundColor="Black" Margin="20"/>
+        <Label Text="" x:Name="ResultLabel" HorizontalOptions="CenterAndExpand"/>
+    </StackLayout>
+
+</ContentPage>
