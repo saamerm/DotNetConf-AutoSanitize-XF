@@ -5,7 +5,7 @@
 
     <StackLayout Padding="12">
         <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="Welcome to Auto Dispenser!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            <Label Text="Welcome to Auto Dispensers!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
         <Label Text="Start sanitizing now" FontSize="Title" Padding="30,10,30,10"/>
         <Label Text="Make changes to your life by sanitizing and save lives. Give it a try!" FontSize="16" Padding="30,0,30,0"/>

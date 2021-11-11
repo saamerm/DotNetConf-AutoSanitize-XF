@@ -10,7 +10,8 @@ namespace AutoSanitize
     {
       InitializeComponent();
 
-      MainPage = new MainPage();
+        MainPage = new PhotonPage();
+        //MainPage = new MainPage();
     }
 
     protected override void OnStart()

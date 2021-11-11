@@ -38,7 +38,7 @@ namespace AutoSanitize
 
     void APICall(string changeValue)
     {
-      string accessToken = "ab3316276923bf8378da95f69c3fff91ba572200"; //This is your Particle Cloud Access Token
+      string accessToken = "511338a1e729bec778042cb80457233b9642d217"; //This is your Particle Cloud Access Token
       string deviceId = "7ab70dd38a4b1fdf9be5496a"; //This is your Particle Device Id
       string partilceFunc = "led"; //This is the name of your Particle Function
 
